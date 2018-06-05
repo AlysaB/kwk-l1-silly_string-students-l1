@@ -17,7 +17,13 @@
 #greeting("Hola","Brenda","Paige","litty night")
 
 
-def greeting(my_name, my_name = "Hi")
-  puts "#{my_greeting}! I'm #{my_name}"
+#def greeting(my_name, my_name = "Hi")
+  #puts "#{my_greeting}! I'm #{my_name}"
+#end
+#greeting("Karlie", "Hey watsup hello")
+
+
+def gradebook (student_name, grade)
+  puts "Hello #{student_name}, your grade in this class is a(n) #{grade}"
 end
-greeting("Karlie", "Hey watsup hello")
+gradebook("Ferris", "F")
