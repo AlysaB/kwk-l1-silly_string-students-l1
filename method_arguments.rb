@@ -20,4 +20,4 @@
 def greeting(my_name, my_name = "Hi")
   puts "#{my_greeting}! I'm #{my_name}"
 end
-greeting("Karlie")
+greeting("Karlie", "Hey watsup hello")
