@@ -13,4 +13,4 @@ def greeting (local_greeting, your_name, my_name, local_time )
   puts "#{local_greeting} #{your_name}, I'm #{my_name}, how's your #{local_time}"
 end
 
-greeting ("Hey, Michelle, Dayi, Morning")
+greeting ("Hey","Michelle","Dayi","Morning")
