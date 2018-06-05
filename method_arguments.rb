@@ -23,7 +23,7 @@
 #greeting("Karlie", "Hey watsup hello")
 
 
-def gradebook (student_name, grade)
+def gradebook (student_name, grade = "A")
   puts "Hello #{student_name}, your grade in this class is a(n) #{grade}"
 end
-gradebook("Ferris", "F")
+gradebook("Ferris")
