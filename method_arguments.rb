@@ -9,8 +9,15 @@
 #greeting
 #Hey, Dayi, I'm Michelle, hows you're morning?
 
-def greeting (local_greeting, your_name, my_name, local_time )
-  puts "#{local_greeting} #{your_name}, I'm #{my_name}, how's your #{local_time}"
-end
 
-greeting("Hey","Michelle","Dayi","Morning")
+#def greeting (local_greeting, your_name, my_name, local_time )
+  #puts "#{local_greeting} #{your_name}, I'm #{my_name}, how's your #{local_time}"
+#end
+
+#greeting("Hola","Brenda","Paige","litty night")
+
+
+def greeting(my_name, my_name = "Hi")
+  puts "#{my_greeting}! I'm #{my_name}"
+end
+greeting("Karlie")
